@@ -1,0 +1,71 @@
+ <!DOCTYPE html>
+
+ <html>
+
+ <head>
+
+
+     <link rel="stylesheet" type="text/css" href="css/index.css">
+     <title>projeto</title>
+ </head>
+
+ <body>
+     
+     <div class="so para fazer msm"> 
+     
+              <h1>câmera</h1>
+     </div>
+     <div class="app">
+
+
+         <p>
+             <button onclick="app.capture()">
+                 Iniciar Câmera
+             </button>
+         </p>
+
+         <p>
+             <img style="display:none;width: 250px;height: 250px" id="minhaimagem" src="">
+         </p>
+     </div>
+
+     <div class="ze">
+
+
+         <h2>Informações do Sistema</h2>    
+
+     </div>
+
+
+
+
+     <div class="fundo">
+
+         <p>versão cordova:<span id="cordova"></span></p>
+
+         <p>modelo:<span id="model"></span></p>
+
+         <p>plataform:<span id="platform"></span></p>
+
+         <p>version:<span id="version"></span></p>
+
+         <p>manuFacture:<span id="manufacture"></span></p>
+
+         <p>isvirtual:<span id="isvirtual"></span></p>
+
+     </div>
+
+
+
+
+
+
+     <script type="text/javascript" src="cordova.js"></script>
+     <script type="text/javascript" src="js/index.js"></script>
+     <script type="text/javascript">
+         app.initialize();
+
+     </script>
+ </body>
+
+ </html>

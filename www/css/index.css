@@ -1,0 +1,60 @@
+* {}
+
+.app {
+    background: url(../img/tempo.jpg) no-repeat center;
+    position: absolute;
+    height: 39px;
+    width: 115px;
+
+    text-align: center;
+
+    padding: 0px 0px 0px 0px;
+
+    margin: 0px 0px 0px 0px;
+}
+
+.fundo {
+
+    background: url(../img/download.jpg)  center;
+    position: absolute;
+    height: 200px;
+    width:168px;
+    left: 2%;
+    top:7%;
+   color:aqua;
+
+}
+
+
+
+
+.ze {
+
+
+    color:darkblue  ;
+
+    padding: 0px 0px 0px 0px;
+    left: 1%;
+    position: absolute;
+}
+
+    
+    .app {
+        
+       padding: 0px 0px 0px 0px;
+        left:18%;
+        top:7%;
+        
+    position: absolute;
+        color: firebrick
+}
+
+.msm {
+    
+  left: 18%;
+      
+      position: absolute;    
+    
+    color:mediumslateblue
+}
+        
